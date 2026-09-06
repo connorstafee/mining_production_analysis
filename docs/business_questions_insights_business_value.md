@@ -2,14 +2,15 @@
 - **SQL QUERY:** See `sql_queries/01_target_vs_actual.sql`
 
 - **INSIGHTS:**
-All mines are performing very close to their targets, with achievement percentages above 99%.
-South Mine leads slightly with ~99.46% achievement.
-Central Mine follows at ~99.31%, while East Mine and North Mine are just below at ~99.20% and ~99.05%.
-This indicates strong operational discipline across all mines, with minimal variance between planned and actual production.
+The query calculates total target tonnes vs total actual tonnes for each mine.
+The achievement_pct column shows how close each mine is to meeting or exceeding its planned targets.
+From your dataset, most mines are achieving above 99% of their targets, with small variations:
+South Mine slightly leads (~99.4%).
+Central Mine follows (~99.3%).
+East Mine and North Mine are just below (~99.2% and ~99.0%).
 
 - **BUSINESS VALUE:**
-Helps management identify high-performing mines and areas needing efficiency improvements.
-All mines are performing very close to their targets, with achievement percentages above 99%.
-South Mine leads slightly with ~99.46% achievement.
-Central Mine follows at ~99.31%, while East Mine and North Mine are just below at ~99.20% and ~99.05%.
-This indicates strong operational discipline across all mines, with minimal variance between planned and actual production.
+Consistently high achievement percentages (>99%) show strong alignment between planning and execution.
+Management can trust production forecasts for resource allocation and financial planning.
+Even small differences (South Mine outperforming slightly) highlight opportunities to replicate best practices across other mines.
+This metric is a core KPI for performance dashboards.
