@@ -4,4 +4,4 @@ SELECT department,
        ROUND(AVG(downtime_hours),2) AS avg_downtime
 FROM production
 GROUP BY department
-ORDER BY avg_downtime DESC;
+ORDER BY avg_downtime DESC; 
