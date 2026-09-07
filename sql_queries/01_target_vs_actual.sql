@@ -1,4 +1,4 @@
--- Compare actual vs target tonnes by mine
+-- Production Achievement 
 
 SELECT mine,
        SUM(target_tonnes) AS total_target,
